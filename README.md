@@ -1,4 +1,4 @@
-## Breief Description
+## Brief Description
 This project is intended to mimic Twitter .. It will create tweets,
  display them to the user, store them to database and retrieve them if the user wishes
 to do so..
