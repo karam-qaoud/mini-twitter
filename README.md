@@ -4,7 +4,7 @@ This project is intended to mimic Twitter .. It will create tweets,
 to do so..
 
 ## Stack
-React Express Mongoose Css and Html
+React, Express, Mongoose, Css and Html
 
 ## Available Scripts
 

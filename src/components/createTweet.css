@@ -1,0 +1,9 @@
+h3 {
+    color: rgb(45, 91, 245);
+};
+
+#submit {
+    font-family: 'Trebuchet MS', sans-serif;
+    color: rgb(45, 91, 245);
+    background-color: rgb(255, 255, 255);
+}
