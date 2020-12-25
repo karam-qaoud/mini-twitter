@@ -1,22 +1,24 @@
-import axios from 'axios';
+import React from "react";
+import axios from "axios";
 
-let big = () => {
-    axios.get ('/tweets')
-    .then((response)=> {
-        console.log("Here is your response ...", response);
-    })
-    .catch((err)=> {
-        console.log("Error in retrieving tweets", err);
-    });
+
+class Tweet extends React.Component {
+
+    componentDidMount() {
+        axios.get('/tweet')
+        .then(function (response) {
+          console.log(response);
+        })
+        .catch(function (error) {
+          console.log(error);
+        });
+    }
+
+  render() {
+    return (
+        <h1>This is  a tweet! </h1>
+    );
+  }
 }
 
-let tweet = (data) => (
-    <label style={{color: "black"}}> {data} Tweet here! </label>
-)
-
-
-
-
-
-
-export default big;
+export default Tweet;

@@ -14,10 +14,11 @@ app.post('/makeTweet', (req, res)=> {
     db.saveTweet(req.body.Tweet);
 });
 
-app.get('/tweets', (req, res)=> {
-    console.log("Hi");
-    console.log("Sending tweets ...");
-})
+app.get('/tweet', (req, res)=> {
+    console.log(req.body);
+    console.log('Sending tweets ...');
+});
+
 app.listen(port, () => {
     console.log(`App listening on port ${port}`);
   })

@@ -1,10 +1,10 @@
 import CreateTweet from "./components/CreateTweet"
-import big from "./components/tweet"
+import Tweet from "./components/tweet"
 function App() {
   return (
     <div className="App">
       <CreateTweet/>
-      {big()}
+      <Tweet/>
     </div>
   );
 }
