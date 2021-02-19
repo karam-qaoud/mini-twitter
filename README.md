@@ -6,6 +6,10 @@ to do so..
 ## Stack
 React, Express, Mongoose, Css and Html
 
+
+##
+Start by runnig `npm run server` then `npm run start`
+
 ## Available Scripts
 
 In the project directory, you can run:
