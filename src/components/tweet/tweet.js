@@ -1,5 +1,6 @@
 import React from "react";
 import axios from "axios";
+import './tweet.css';
 
 class Tweet extends React.Component {
   state = { tweets: [] };
@@ -25,16 +26,18 @@ class Tweet extends React.Component {
   //   .catch(function (error) {
   //     console.log(error);
   //   });
-    
+
   // }
 
   render() {
     return (
       <div>
-        <h1> Tweets Feed: </h1>
-        {this.state.tweets.map((tweet) => {
-          return <h4>{tweet}</h4>;
-        })}
+        <h1> My Tweets Feed: </h1>
+        <ul>
+          {this.state.tweets.map((tweet) => {
+            return <li>{tweet}</li>;
+          })}
+        </ul>
       </div>
     );
   }
